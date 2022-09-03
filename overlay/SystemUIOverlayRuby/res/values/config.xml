@@ -81,5 +81,8 @@
     Should be enabled for OLED devices to reduce/prevent burn in on the status bar
     and on the navigation bar and disabled for all other devices. -->
     <bool name="config_statusBarBurnInProtection">true</bool>
-
+    <!-- Whether usage of the proximity sensor during doze is supported -->
+    
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
