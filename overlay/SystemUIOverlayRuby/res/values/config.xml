@@ -76,4 +76,10 @@
 
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
+
+    <!-- Whether to enable shifting of elements in the status bar and the navigation bar.
+    Should be enabled for OLED devices to reduce/prevent burn in on the status bar
+    and on the navigation bar and disabled for all other devices. -->
+    <bool name="config_statusBarBurnInProtection">true</bool>
+
 </resources>
