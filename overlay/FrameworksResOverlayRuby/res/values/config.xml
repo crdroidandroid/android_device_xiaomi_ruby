@@ -612,4 +612,13 @@
 
     <!--Useful if you want to improve signal reception -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+
+    <!-- Expected value from fast charging status file  -->
+    <string name="config_oemFastChargerStatusValue" translatable="false">1</string>
+
+    <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+     <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/Charging_Adapter/pd_adapter/usbpd_verifed</string>
+
+    <!-- Whether device has turbo power charging support -->
+    <bool name="config_hasTurboPowerCharger">true</bool>
 </resources>
