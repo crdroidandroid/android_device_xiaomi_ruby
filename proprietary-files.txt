@@ -1300,6 +1300,8 @@ vendor/lib64/libdeccfg.so
 vendor/lib64/libdlbdsservice.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/soundfx/libswvqe.so
+vendor/lib64/soundfx/libswgamedap.so
 
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
