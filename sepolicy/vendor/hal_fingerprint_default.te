@@ -9,6 +9,10 @@ allow hal_fingerprint_default vendor_fingerprint_data_file:file create_file_perm
 # Allow fingerprint HAL to read battery info
 allow hal_fingerprint_default sysfs_batteryinfo:dir { search };
 allow hal_fingerprint_default sysfs_batteryinfo:file r_file_perms;
+
+allow hal_fingerprint_default sysfs_pwrinfo:dir { search };
+allow hal_fingerprint_default sysfs_pwrinfo:file r_file_perms;
+
 allow hal_fingerprint_default sysfs_pmu:dir { search };
 allow hal_fingerprint_default sysfs_pmu:file r_file_perms;
 
