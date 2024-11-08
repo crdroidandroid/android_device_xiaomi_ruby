@@ -6,9 +6,9 @@
 /mnt/vendor/persist/camera(/.*)? u:object_r:camera_persist_file:s0
 /data/vendor/camera(/.*)? u:object_r:vendor_camera_data_file:s0
 /vendor/lib(64)?/libc\+\+_shared\.so u:object_r:same_process_hal_file:s0
-/vendor/lib(64)?/libnir_neon_driver_ndk\.mtk\.vndk\.so u:object_r:same_process_hal_file:s0
-/vendor/lib(64)?/libcmdl_ndk\.mtk\.vndk\.so u:object_r:same_process_hal_file:s0
-/vendor/lib(64)?/libarmnn_ndk\.mtk\.vndk\.so u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libnir_neon(.*)?\.so u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libcmdl(.*)?\.so u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/libarmnn(.*)?\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libmpbase\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libmialgoengine\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libarcsoft_beautyshot\.so u:object_r:same_process_hal_file:s0
