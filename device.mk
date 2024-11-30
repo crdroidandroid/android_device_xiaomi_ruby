@@ -334,6 +334,23 @@ PRODUCT_PACKAGES += \
     libwifi-hal-wrapper \
     android.hardware.wifi-service
 
+# APN Configs
+ifneq ($(wildcard vendor/xiaomi/rubyx/proprietary/system/system/etc/system-apns-conf.xml),)
+PRODUCT_COPY_FILES += vendor/xiaomi/rubyx/proprietary/system/system/etc/system-apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/apns-conf.xml
+endif
+
+ifneq ($(wildcard vendor/xiaomi/rubyx/proprietary/product/etc/apns-conf.xml),)
+PRODUCT_COPY_FILES += vendor/xiaomi/rubyx/proprietary/product/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+endif
+
+ifneq ($(wildcard vendor/xiaomi/rubyx/proprietary/product/etc/fiveG-apns-conf.xml),)
+PRODUCT_COPY_FILES += vendor/xiaomi/rubyx/proprietary/product/etc/fiveG-apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fiveG-apns-conf.xml
+endif
+
+ifneq ($(wildcard vendor/xiaomi/rubyx/proprietary/product/etc/xcap-apns-conf.xml),)
+PRODUCT_COPY_FILES += vendor/xiaomi/rubyx/proprietary/product/etc/xcap-apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/xcap-apns-conf.xml
+endif
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
 
