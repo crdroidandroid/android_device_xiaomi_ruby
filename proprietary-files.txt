@@ -310,6 +310,10 @@ vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 # Bluetooth (Firmware) - from a34xxx-user 14 UP1A.231005.007 A346BXXU8CXG7 release-keys
 vendor/firmware/soc5_0_ram_bt_1_1_hdr.bin|e9ea91f8087e092fd56da8154d467a884e1f688c
 
+# Camera (Algo Engine) - from gale_global 15 AP3A.240905.015.A2 OS2.0.2.0.VGPMIXM release-keys
+vendor/lib64/libmialgoengine.so|0e1c70fb6220154096a9e8c842d20485f4d477a8
+vendor/lib64/libmialgoengine2.so|17f87c6aaf130aa3520eecfd4ee45abd796853da
+
 # Camera
 vendor/bin/hw/camerahalserver
 vendor/etc/init/camerahalserver.rc
@@ -1065,7 +1069,6 @@ vendor/lib64/libmialgo_aio_seg.so
 vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
-vendor/lib64/libmialgoengine.so;DISABLE_CHECKELF
 vendor/lib64/libmiphone_capture_bokeh.so
 vendor/lib64/libmiphone_preview_bokeh.so
 vendor/lib64/libmpbase.so
