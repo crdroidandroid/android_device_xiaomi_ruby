@@ -123,11 +123,6 @@
         <fqname>@2.0::INeuronXrp/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.bluetooth.audio</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.2::IBluetoothAudioProvidersFactory/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.mediatek.hardware.camera.atms</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IATMs/default</fqname>
