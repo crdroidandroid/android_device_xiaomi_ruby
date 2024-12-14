@@ -258,7 +258,7 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/rsc,$(TARGET_COPY_OUT_VENDOR)/etc/rsc)
 
-# Rootdir
+# Init
 PRODUCT_PACKAGES += \
     fstab.mt6877 \
     fstab.mt6877.ramdisk \
