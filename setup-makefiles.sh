@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=rubyx
+DEVICE=ruby
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -27,7 +27,7 @@ source "${HELPER}"
 
 function vendor_imports() {
 	cat <<EOF >>"$1"
-		"device/xiaomi/rubyx",
+		"device/xiaomi/ruby",
 		"hardware/mediatek",
 		"hardware/mediatek/libmtkperf_client",
 		"hardware/xiaomi"
