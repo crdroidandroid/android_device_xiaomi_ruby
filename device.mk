@@ -276,8 +276,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.mt6877.rc
 
-PRODUCT_PACKAGES += \
-    init.recovery.mt6877.rc
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.recovery.mt6877.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.mt6877.rc
 
 # Sensors
 PRODUCT_PACKAGES += \
