@@ -1,6 +1,9 @@
 # Camera
 ro.product.mod_device=ruby_global
 
+# Display
+persist.sys.brightness.low.gamma=true
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
