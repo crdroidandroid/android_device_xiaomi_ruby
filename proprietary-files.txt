@@ -1851,3 +1851,9 @@ vendor/firmware/wifi.cfg|5d3344dc18716ae413c3253b8e297f2879d751f8
 
 # Wi-Fi (Firmware) - from a34xxx-user 14 UP1A.231005.007 A346BXXU8CXG7 release-keys
 vendor/firmware/WIFI_RAM_CODE_soc5_0_1_1.bin|d4b2c8f2503ca8bb763ec69f0c23cfc303ccb5a5
+
+# APN Configs - from ruby-user 14 UP1A.230620.001 V816.0.10.0.UMOMIXM release-keys
+-vendor/xiaomi/rubyx/proprietary/system/system/etc/system-apns-conf.xml
+-vendor/xiaomi/rubyx/proprietary/product/etc/apns-conf.xml
+-vendor/xiaomi/rubyx/proprietary/product/etc/fiveG-apns-conf.xml
+-vendor/xiaomi/rubyx/proprietary/product/etc/xcap-apns-conf.xml
