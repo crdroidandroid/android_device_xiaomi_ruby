@@ -1,0 +1,33 @@
+[
+  {
+    "repository": "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "lineage-22.0"
+  },
+  {
+    "repository": "crdroidandroid/android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "Xider-Posts/android_device_xiaomi_miuicamera-ruby",
+    "target_path": "device/xiaomi/miuicamera-ruby",
+    "branch": "lineage-22.0"
+  },
+  {
+    "repository": "Xider-Posts/android_vendor_xiaomi_miuicamera-ruby",
+    "target_path": "vendor/xiaomi/miuicamera-ruby",
+    "branch": "lineage-22.0"
+  },
+  {
+    "repository": "crdroidandroid/android_device_xiaomi_ruby",
+    "target_path": "device/xiaomi/ruby"
+  },
+  {
+    "repository": "crdroidandroid/android_vendor_xiaomi_ruby",
+    "target_path": "vendor/xiaomi/ruby"
+  },
+  {
+    "repository": "crdroidandroid/android_kernel_xiaomi_mt6877",
+    "target_path": "kernel/xiaomi/mt6877"
+  }
+]
